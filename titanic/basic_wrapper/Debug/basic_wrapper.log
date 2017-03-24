@@ -1,0 +1,21 @@
+﻿Build started 02/12/2016 14:45:44.
+     1>Project "U:\Desktop\assignment\basic_wrapper\basic_wrapper\basic_wrapper.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt object_loader.cpp
+         object_loader.cpp
+     1>u:\desktop\assignment\basic_wrapper\basic_wrapper\object_loader.cpp(134): warning C4101: 'e' : unreferenced local variable
+     1>u:\desktop\assignment\basic_wrapper\basic_wrapper\object_loader.cpp(152): warning C4101: 'e' : unreferenced local variable
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"U:\Desktop\assignment\basic_wrapper\Debug\basic_wrapper.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib SOIL.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"U:\Desktop\assignment\basic_wrapper\Debug\basic_wrapper.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"U:\Desktop\assignment\basic_wrapper\Debug\basic_wrapper.lib" /MACHINE:X86 Debug\object_ldr.obj
+         Debug\object_loader.obj
+         Debug\particle_object.obj
+         Debug\terrain_object.obj
+         Debug\wrapper_glfw.obj
+         basic_wrapper.vcxproj -> U:\Desktop\assignment\basic_wrapper\Debug\basic_wrapper.exe
+     1>Done Building Project "U:\Desktop\assignment\basic_wrapper\basic_wrapper\basic_wrapper.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.68
